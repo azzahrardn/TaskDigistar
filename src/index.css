@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+}

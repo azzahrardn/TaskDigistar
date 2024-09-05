@@ -1,0 +1,53 @@
+.container {
+    padding: 1.5rem;
+  }
+  
+  .productsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .productsItem {
+    border: 1px solid gray;
+    padding: 0.5rem;
+  }
+  
+  .productsItemCover {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+  }
+  
+  .paginationContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .paginationContainer button {
+    background-color: #007bff; /* Biru yang mencolok */
+    color: white; /* Warna teks putih */
+    border: none; /* Hilangkan border */
+    padding: 0.75rem 1.5rem; /* Ruang dalam tombol */
+    margin-left: 0.5rem; /* Jarak antar tombol */
+    font-size: 1rem; /* Ukuran font yang nyaman */
+    cursor: pointer; /* Pointer saat hover */
+    border-radius: 0.25rem; /* Sudut tombol melengkung */
+    transition: background-color 0.3s ease; /* Transisi yang halus */
+  }
+  
+  .paginationContainer button:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+  }
+  
+  .paginationContainer button:active {
+    background-color: #003f7f; /* Warna lebih gelap saat tombol ditekan */
+  }
+  
+  .paginationContainer button:disabled {
+    background-color: #cccccc; /* Warna abu-abu saat tombol dinonaktifkan */
+    cursor: not-allowed; /* Kursor disabled */
+  }
+  
