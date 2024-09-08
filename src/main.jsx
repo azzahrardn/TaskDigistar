@@ -8,6 +8,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
+import AddProduct from "./pages/AddProducts";
 import ProductsDetail, {
   loader as productLoader,
 } from "./pages/ProductsDetail";
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element: <Products />,
+  },
+
+  {
+    path: "/products/add",
+    element: <AddProduct />,
   },
 
   {
